@@ -1,0 +1,16 @@
+package entities;
+
+public class Busy {
+
+	Busy busy = new Busy();
+	
+	//room-name-email
+	Students students = new Students();
+	
+	Pensionato pensionato = new Pensionato(); 
+	
+	public String toString() {	
+		System.out.print(pensionato.getRoom()+": "+ students.getName()+", "+students.getEmail());
+		return null;
+	}
+}

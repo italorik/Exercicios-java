@@ -1,0 +1,59 @@
+package entities;
+
+public class Account {
+
+	private int accountNumber;         //Final
+	private String accountTitular;
+	private double valorInitial = 0.0;
+
+	
+	
+	
+	
+	//Construtor com 2 parametros
+	public Account(int accountNumber, String accountTitular) {
+		this.accountNumber = accountNumber;
+		this.accountTitular = accountTitular;
+	}
+	//construtuor com 3 parametros
+	public Account(int accountNumber, String accountTitular, double valorInitial) {
+		this.accountNumber = accountNumber;
+		this.accountTitular = accountTitular;
+		this.valorInitial = valorInitial;
+	}
+	
+	
+	
+	
+	
+	public void addAccount(int accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+	
+	public int getAccountNumber() {
+		return accountNumber;
+	}
+	
+	
+	public String getAccountTitular() {
+		return accountTitular;
+	}
+	public void setAccountTitular(String accountTitular) {
+		this.accountTitular = accountTitular;
+	}
+	
+	
+	public double getValorInitial() {
+		return valorInitial;
+	}
+	
+	
+	public void deposit(double amount) {
+		balance += amount;
+	}
+	
+
+}
+
+
+

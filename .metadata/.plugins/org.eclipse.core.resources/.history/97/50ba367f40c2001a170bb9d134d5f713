@@ -1,0 +1,46 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Pensionato;
+import entities.Students;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		Students students = new Students();
+		
+		Pensionato pensionato = new Pensionato(); 
+		
+		System.out.println("Entre com o nome do estudante");
+		System.out.print("Name:");
+		students.name = sc.nextLine();
+		students.setName(students.name);
+		System.out.println("Entre com o email do estudante");
+		System.out.print("Email:");
+		students.email =sc.nextLine();
+		students.setEmail(students.email);
+		
+		
+		
+		System.out.println("how many rooms will be rented?");
+		int i = sc.nextInt();
+		int[] vect = new int [11];
+		
+		for(i=1; i<vect.length ; i++) {
+		pensionato.room = vect[i];
+		pensionato.setRoom(pensionato.room);
+		
+		System.out.println("Rent #"+ pensionato.getRoom());
+		
+			
+		}
+		
+		
+		sc.close();
+	}
+
+}

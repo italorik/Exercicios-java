@@ -1,0 +1,12 @@
+package entities;
+
+public class CorrencyConverter {
+
+	public double pricedollar;
+	public double quantitydollar;
+	public double iof;
+
+	public double converter ( ) {
+		return null;
+	}
+}

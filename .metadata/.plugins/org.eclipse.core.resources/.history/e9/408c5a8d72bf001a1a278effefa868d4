@@ -1,0 +1,20 @@
+package entities;
+
+public class CurrencyConverter {
+
+	public static double pricedollar;
+	public static double quantitydollar;
+	public double dollar;
+	public static double iof;
+	
+	public static double result () {
+		
+		return pricedollar * quantitydollar;
+				 
+	}
+	public static addIof() {
+		return iof = result() * 0.06;
+		
+	}
+}
+

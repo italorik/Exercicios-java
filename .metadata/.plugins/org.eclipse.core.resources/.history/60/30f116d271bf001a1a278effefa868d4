@@ -1,0 +1,20 @@
+package entities;
+
+public class CurrencyConverter {
+
+	public static double pricedollar;
+	public static double quantitydollar;
+	public double dollar;
+	
+	
+	public static double result () {
+		
+		return pricedollar * quantitydollar;
+				 
+	}
+	public void addIof(double result) {
+		double iof = result * 0.06;
+		 System.out.println(iof);
+	}
+}
+

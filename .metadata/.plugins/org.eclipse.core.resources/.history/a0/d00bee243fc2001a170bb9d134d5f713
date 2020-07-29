@@ -1,0 +1,32 @@
+package entities;
+
+public class Pensionato {
+
+	
+	Integer room;
+	
+
+
+	public Pensionato(Integer room) {
+		this.room = room;
+	}
+
+
+	public Integer pensionato() {
+		return room;
+	}
+
+
+	public Integer getRoom() {
+		return room;
+	}
+
+
+	public void setRoom(Integer room) {
+		this.room = room;
+	}
+	
+	
+	
+	
+}

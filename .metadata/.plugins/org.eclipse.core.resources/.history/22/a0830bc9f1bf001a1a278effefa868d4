@@ -1,0 +1,8 @@
+package entities;
+
+public class Account {
+
+	int accountNumber;
+	String accounttitular;
+	double valorInitial = 0.0;
+}

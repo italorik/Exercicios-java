@@ -1,0 +1,30 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Pensionato;
+import entities.Students;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		Students students;
+		students = new Student(name, email);
+		
+		
+		for(int i=0; i<n ; i++) {
+			sc.nextLine();
+			students.getName() = sc.nextLine();
+			String email = sc.nextLine();
+		
+		
+		}
+		
+		
+		sc.close();
+	}
+
+}
